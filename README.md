@@ -1,4 +1,4 @@
-(https://github.com/user-attachments/files/31497605/Index.html)
+
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
