@@ -1,4 +1,3 @@
-(https://github.com/user-attachments/files/31500201/Index.html)
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
