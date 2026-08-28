@@ -458,7 +458,7 @@
         Escanea el QR o da clic en el botón para subir tus fotos a la carpeta compartida en Google Drive.
       </p>
       <div style="display: flex; justify-content: center;">
-        <a href="https://drive.google.com/drive/folders/1c7YFWJKr6N45P8C6X-K9EWjC5P-WZh8p?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/drive/u/1/folders/1c7YFWJKr6N45P8C6X-K9EWjC5P-WZh8p?role=writer" target="_blank" rel="noopener noreferrer">
           <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1c7YFWJKr6N45P8C6X-K9EWjC5P-WZh8p%3Fusp%3Dsharing" alt="QR Google Drive Fotos" style="border-radius: 16px; border: 2px solid var(--rose-gold-dark); padding: 0.5rem; background: #fff;" />
         </a>
       </div>
