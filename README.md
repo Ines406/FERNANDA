@@ -238,7 +238,9 @@
       background: rgba(255, 255, 255, 0.7);
       border-radius: 18px;
       border: 1px solid var(--rose-gold-dark);
+      margin-bottom: 1rem;
     }
+    .gift-box:last-child { margin-bottom: 0; }
 
     .btn {
       width: 100%;
@@ -279,7 +281,7 @@
 </head>
 <body>
 
-  <!-- Reproductor de audio apuntando a Valiente.mp3 -->
+  <!-- Reproductor de audio -->
   <audio id="bg-music" loop preload="auto" src="Valiente.mp3"></audio>
 
   <!-- Botón Flotante para Audio -->
@@ -401,9 +403,31 @@
     <section class="panel" id="regalos">
       <span class="section-sub">Muestra de afecto</span>
       <h2 class="section-title">Mesa de Regalos</h2>
-      <p style="text-align: center; color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem;">
+      <p style="text-align: center; color: var(--muted); font-size: 0.9rem; margin-bottom: 1.2rem;">
         El mejor regalo es tu presencia en este día tan especial. Si deseas tenerme un detalle, puedes consultar las siguientes opciones:
       </p>
+
+      <div class="gift-box">
+        <div style="font-size: 2rem; margin-bottom: 0.3rem;">🛍️</div>
+        <strong style="display:block; font-size: 1.05rem; color: var(--rose-gold-deep);">Amazon</strong>
+        <p style="margin: 0.3rem 0 0.5rem 0; font-size: 0.85rem; color: var(--muted);">
+          Mesa de regalos en línea con envío a domicilio.
+        </p>
+        <a class="btn btn-secondary" href="https://www.amazon.com.mx/registries/gl/guest-view/3E9KJ3UNRPD05?ref_=cm_sw_r_cp_ud_ggr-subnav-share_8SREYD5ZHG1Z4CYYJM68" target="_blank" rel="noopener noreferrer">
+          Ver Mesa en Amazon
+        </a>
+      </div>
+
+      <div class="gift-box">
+        <div style="font-size: 2rem; margin-bottom: 0.3rem;">🎀</div>
+        <strong style="display:block; font-size: 1.05rem; color: var(--rose-gold-deep);">Liverpool</strong>
+        <p style="margin: 0.3rem 0 0.2rem 0; font-size: 0.85rem; color: var(--muted);">
+          Número de evento: <b>60034717</b>
+        </p>
+        <a class="btn btn-secondary" href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/60034717" target="_blank" rel="noopener noreferrer">
+          Ver Mesa en Liverpool
+        </a>
+      </div>
 
       <div class="gift-box">
         <div style="font-size: 2rem; margin-bottom: 0.3rem;">🎁</div>
@@ -458,7 +482,7 @@
         Escanea el QR o da clic en el botón para subir tus fotos a la carpeta compartida en Google Drive.
       </p>
       <div style="display: flex; justify-content: center;">
-        <a href="https://drive.google.com/drive/u/1/folders/1c7YFWJKr6N45P8C6X-K9EWjC5P-WZh8p?role=writer" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/drive/folders/1c7YFWJKr6N45P8C6X-K9EWjC5P-WZh8p?usp=sharing" target="_blank" rel="noopener noreferrer">
           <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1c7YFWJKr6N45P8C6X-K9EWjC5P-WZh8p%3Fusp%3Dsharing" alt="QR Google Drive Fotos" style="border-radius: 16px; border: 2px solid var(--rose-gold-dark); padding: 0.5rem; background: #fff;" />
         </a>
       </div>
@@ -509,7 +533,7 @@
 
     window.addEventListener('DOMContentLoaded', tryPlayMusic);
 
-    // Iniciar reproducción al primer clic/toque en la página (restricción común de navegadores móviles)
+    // Iniciar reproducción al primer clic/toque en la página
     const enableAudioOnTouch = () => {
       if (music.paused) {
         music.play().then(() => {
