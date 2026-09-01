@@ -461,7 +461,7 @@
         <strong style="display:block; font-size: 1.1rem;">⛪ Ceremonia Religiosa</strong>
         <p style="margin: 0.2rem 0; color: var(--muted); font-size: 0.9rem;">La Acción Católica</p>
         <p style="margin: 0; color: var(--muted); font-size: 0.85rem;">Independencia #1000, Col. Centro, San Luis Potosí</p>
-        <a class="btn btn-secondary" href="https://maps.google.com/?q= 22°09'03.3"N 100°58'46.3"W" target="_blank" rel="noopener noreferrer">Abrir Misa en Maps</a> 
+        <a class="btn btn-secondary" href="https://maps.app.goo.gl/sfptLNmkkNgmtj8f9" target="_blank" rel="noopener noreferrer">Abrir Misa en Maps</a>
       </div>
 
       <hr style="border: 0; border-top: 1px dashed var(--rose-gold-dark); margin: 1.2rem 0;">
